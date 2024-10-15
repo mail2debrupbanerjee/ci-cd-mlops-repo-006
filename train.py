@@ -19,7 +19,7 @@ X = drug_df.drop("Drug", axis=1).values
 y = drug_df.Drug.values
 
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.3, random_state=125
+    X, y, test_size=0.2, random_state=125
 )
 
 
